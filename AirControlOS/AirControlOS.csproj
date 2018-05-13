@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8735535D-BE81-458A-964B-920EACDDEF93}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AirControlOS</RootNamespace>
+    <AssemblyName>AirControlOS</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.5.0.0\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Expression.Effects, Version=4.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Expression.Interactions, Version=4.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Practices.Prism">
+      <HintPath>E:\Program Files (x86)\PresmWPF\Bin\Desktop\Microsoft.Practices.Prism.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Windows.Interactivity, Version=4.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="Views\ListWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\LoginWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BoolConvertion.cs" />
+    <Compile Include="Models\AirControlFolder\AirControlBase.cs" />
+    <Compile Include="Models\AirControlFolder\FirstAirControl.cs" />
+    <Compile Include="Models\AircontrolIndexClass.cs" />
+    <Compile Include="Models\AirControlListFolder\AirControlList.cs" />
+    <Compile Include="Models\AirControlListFolder\ObservableCollectionEx.cs" />
+    <Compile Include="Models\AirControlListFolder\ICallListWindowable.cs" />
+    <Compile Include="Models\AssistCompnentResources\TemperatureAddSymbol.cs" />
+    <Compile Include="Models\Command_Interface\ICommandable.cs" />
+    <Compile Include="Models\DataConverter_Instacne\FirstDataConverter.cs" />
+    <Compile Include="Models\DataConverter_Interface\IDataConverterable.cs" />
+    <Compile Include="Models\ButtonBaseClass\ButtonCommandBaseClass.cs" />
+    <Compile Include="Models\First\FirstButtonCommandSets\AddTemperatureMode.cs" />
+    <Compile Include="Models\First\FirstButtonCommandSets\DryMode.cs" />
+    <Compile Include="Models\First\FirstButtonCommandSets\DriveState.cs" />
+    <Compile Include="Models\First\FirstButtonCommandSets\FirstButtonCommandSets.cs" />
+    <Compile Include="Models\First\FirstButtonCommandSets\HeathAndAirChangeMode.cs" />
+    <Compile Include="Models\First\FirstButtonCommandSets\HorWindSweepMode.cs" />
+    <Compile Include="Models\First\FirstButtonCommandSets\LightMode.cs" />
+    <Compile Include="Models\First\FirstButtonCommandSets\SetTemperatureMode.cs" />
+    <Compile Include="Models\First\FirstButtonCommandSets\SilenceMode.cs" />
+    <Compile Include="Models\First\FirstButtonCommandSets\SubTemperatureMode.cs" />
+    <Compile Include="Models\First\FirstButtonCommandSets\SuperPowerMode.cs" />
+    <Compile Include="Models\First\FirstButtonCommandSets\TemperatureDisplayMode.cs" />
+    <Compile Include="Models\First\FirstButtonCommandSets\TimerMode.cs" />
+    <Compile Include="Models\First\FirstButtonCommandSets\VerWindSweepMode.cs" />
+    <Compile Include="Models\First\FirstButtonCommandSets\WindPowerMode.cs" />
+    <Compile Include="Models\First\FirstButtonCommandSets\WorkModel.cs" />
+    <Compile Include="Models\First\FirstCommands\AddTemperature.cs" />
+    <Compile Include="Models\First\FirstCommands\AutoMode.cs" />
+    <Compile Include="Models\First\FirstCommands\AutoSilence.cs" />
+    <Compile Include="Models\First\FirstCommands\Blow.cs" />
+    <Compile Include="Models\First\FirstCommands\CloseDrive.cs" />
+    <Compile Include="Models\First\FirstCommands\CloseSuperPower.cs" />
+    <Compile Include="Models\First\FirstCommands\Dehumidification.cs" />
+    <Compile Include="Models\First\FirstCommands\DryModeOff.cs" />
+    <Compile Include="Models\First\FirstCommands\DryModeOn.cs" />
+    <Compile Include="Models\First\FirstCommands\HeathAndAirChange.cs" />
+    <Compile Include="Models\First\FirstCommands\HeathAndAirChangeModelOff.cs" />
+    <Compile Include="Models\First\FirstCommands\Heating.cs" />
+    <Compile Include="Models\First\FirstCommands\HorWindSweepOff.cs" />
+    <Compile Include="Models\First\FirstCommands\HorWindSweepOn.cs" />
+    <Compile Include="Models\First\FirstCommands\LightOff.cs" />
+    <Compile Include="Models\First\FirstCommands\LightOn.cs" />
+    <Compile Include="Models\First\FirstCommands\OnlyAirChange.cs" />
+    <Compile Include="Models\First\FirstCommands\OnlyHeath.cs" />
+    <Compile Include="Models\First\FirstCommands\OpenDrive.cs" />
+    <Compile Include="Models\First\FirstCommands\OpenSuperPower.cs" />
+    <Compile Include="Models\First\FirstCommands\Refrigeration.cs" />
+    <Compile Include="Models\First\FirstCommands\Silence.cs" />
+    <Compile Include="Models\First\FirstCommands\SilenceOff.cs" />
+    <Compile Include="Models\First\FirstCommands\SleepModeOff.cs" />
+    <Compile Include="Models\First\FirstCommands\SleepModeOne.cs" />
+    <Compile Include="Models\First\FirstCommands\SleepModeThree.cs" />
+    <Compile Include="Models\First\FirstCommands\SleepModeTwo.cs" />
+    <Compile Include="Models\First\FirstCommands\SubTemperature.cs" />
+    <Compile Include="Models\First\FirstCommands\SuperModeOff.cs" />
+    <Compile Include="Models\First\FirstCommands\SuperModeOn.cs" />
+    <Compile Include="Models\First\FirstCommands\TemperatureDisplayModeOFF.cs" />
+    <Compile Include="Models\First\FirstCommands\TimeOff.cs" />
+    <Compile Include="Models\First\FirstCommands\Timeone.cs" />
+    <Compile Include="Models\First\FirstCommands\TimeThree.cs" />
+    <Compile Include="Models\First\FirstCommands\TimeTwo.cs" />
+    <Compile Include="Models\First\FirstCommands\VerWindSweepOff.cs" />
+    <Compile Include="Models\First\FirstCommands\VerWindSweepOn.cs" />
+    <Compile Include="Models\First\FirstCommands\WindPowelModeFour.cs" />
+    <Compile Include="Models\First\FirstCommands\WindPowerModeFive.cs" />
+    <Compile Include="Models\First\FirstCommands\WindPowerModeThree.cs" />
+    <Compile Include="Models\First\FirstCommands\WindPowerModeTwo.cs" />
+    <Compile Include="Models\First\FirstRemoteControllerInstance\FirstFunctionCategories.cs" />
+    <Compile Include="Models\First\FirstRemoteControllerInstance\FirstFunctionCategories_C.cs" />
+    <Compile Include="Models\First\FirstRemoteControllerInstance\FirstRemoteController.cs" />
+    <Compile Include="Models\First\FirstCommands\WindPowerModeOne.cs" />
+    <Compile Include="Models\First\FirstCommands\TemperatureDisplayModeOn.cs" />
+    <Compile Include="Models\First\FirstButtonCommandSets\SleepMode.cs" />
+    <Compile Include="Models\ListWindowDelegateCommand.cs" />
+    <Compile Include="Models\ListWindowModel.cs" />
+    <Compile Include="Models\ListWindowNotifyObject.cs" />
+    <Compile Include="Models\MCU\MCU_E.cs" />
+    <Compile Include="Models\MultiBatchParameter.cs" />
+    <Compile Include="Models\MultiParameter.cs" />
+    <Compile Include="Models\RemovteController_Base\RemoteControllerBase.cs" />
+    <Compile Include="ViewModels\LoginWindowViewModel.cs" />
+    <Compile Include="ViewModels\MainWidowViewModel.cs" />
+    <Compile Include="Views\ListWindow.xaml.cs">
+      <DependentUpon>ListWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ViewModels\ListWindowViewModel.cs" />
+    <Compile Include="Views\LoginWindow.xaml.cs">
+      <DependentUpon>LoginWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram3.cd" />
+    <None Include="ClassDiagram4.cd" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Models\First\FirstCommands\ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Models\DataConverter_Interface\ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Models\DataConverter_Instacne\ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Models\Command_Interface\ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Models\RemovteController_Base\ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Models\First\FirstRemoteControllerInstance\ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <SplashScreen Include="Sources\startUpUI.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </SplashScreen>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Models\ButtonBaseClass\ReadMe.txt" />
+    <Content Include="Sources\fantasy_worldlogo.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Views\fantasy_worldlogo.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

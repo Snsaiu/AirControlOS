@@ -1,0 +1,31 @@
+﻿<Window x:Class="AirControlOS.Views.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AirControlOS.Views"
+        mc:Ignorable="d"
+        x:Name="LoginMainWindow"
+        Title="LoginWindow" Height="181.333" Width="271.333" ResizeMode="NoResize" Icon="../Sources/fantasy_worldlogo.jpg" Topmost="True" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="120*"/>
+            <ColumnDefinition Width="73*"/>
+            <ColumnDefinition Width="70*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <ProgressBar Grid.ColumnSpan="2" Grid.Row="4" Background="White"/>
+        <Button x:Name="button" Content="Login" Grid.Column="2" Grid.Row="4" Command="{Binding CheckPortCommand}" CommandParameter="{Binding ElementName= LoginMainWindow}"/>
+        <TextBlock x:Name="textBlock"  Grid.Row="1" TextWrapping="Wrap" Text="PortName:" HorizontalAlignment="Right" VerticalAlignment="Bottom"/>
+        <TextBlock x:Name="textBlock_Copy"  Grid.Row="2" TextWrapping="Wrap" Text="PortRate:" HorizontalAlignment="Right" VerticalAlignment="Bottom"/>
+        <TextBox x:Name="PortNameTxt" VerticalAlignment="Bottom" Grid.ColumnSpan="2" Grid.Column="1" Text="{Binding PortName}" Grid.Row="1" TextWrapping="Wrap" BorderThickness="0,0,0,1"/>
+        <TextBox x:Name="PortRateTxt" Grid.ColumnSpan="2" VerticalAlignment="Bottom" Grid.Column="1" Grid.Row="2" Text="{Binding PortRate}" TextWrapping="Wrap" BorderThickness="0,0,0,1"/>
+
+    </Grid>
+</Window>

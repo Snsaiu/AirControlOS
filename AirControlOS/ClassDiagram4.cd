@@ -1,0 +1,858 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AirControlOS.App" Collapsed="true">
+    <Position X="33.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirControlOS.BoolConvertion" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="48.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BoolConvertion.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AirControlOS.MainWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="47" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AirControlOS.Models.AirControlFolder.AirControlBase" Collapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgiAAAAGgAiAAAQAABACgIAosAAIAAYSAIAgJEMhBIA=</HashCode>
+      <FileName>Models\AirControlFolder\AirControlBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AirControlOS.Models.AirControlFolder.FirstAirControl" Collapsed="true">
+    <Position X="0.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\AirControlFolder\FirstAirControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirControlOS.Models.AircontrolIndexClass" Collapsed="true">
+    <Position X="34" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEIAAAAAAAAAAAAQAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Models\AircontrolIndexClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirControlOS.Models.ButtonCommandBaseClass" Collapsed="true">
+    <Position X="19" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ButtonBaseClass\ButtonCommandBaseClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirControlOS.Models.ListWindowDelegateCommand" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="38.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAgAAAAAAACAAQAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ListWindowDelegateCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AirControlOS.Models.ListWindowModel" Collapsed="true">
+    <Position X="2.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAECAAAEABAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ListWindowModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirControlOS.Models.ListWindowNotifyObject" Collapsed="true">
+    <Position X="1.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ListWindowNotifyObject.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AirControlOS.Models.MultiBatchParameter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="50.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\MultiBatchParameter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AirControlOS.Models.MultiParameter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="38.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\MultiParameter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AirControlOS.Models.AirControlListFolder.AirControlList" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAQABEAAAAAAAAAAAAAAAgAAAAAAAAAAKCAAAAAAAAA=</HashCode>
+      <FileName>Models\AirControlListFolder\AirControlList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirControlOS.Models.AirControlListFolder.ObservableCollectionEx&lt;T&gt;" Collapsed="true">
+    <Position X="40" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\AirControlListFolder\ObservableCollectionEx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirControlOS.Models.AssistCompnentResources.TemperatureAddSymbol" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="41.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\AssistCompnentResources\TemperatureAddSymbol.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AirControlOS.Models.DataConverter_Instacne.FirstDataConverter" BaseTypeListCollapsed="true">
+    <Position X="30.25" Y="11.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>gCAAAAAQAIAAAEECAgAAAAAAAEEAAAAAAADBAAAEAQA=</HashCode>
+      <FileName>Models\DataConverter_Instacne\FirstDataConverter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AirControlOS.Models.First.FirstButtonCommandSets.AddTemperatureMode" Collapsed="true">
+    <Position X="4.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgCAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\First\FirstButtonCommandSets\AddTemperatureMode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirControlOS.Models.First.FirstButtonCommandSets.DriveState" Collapsed="true">
+    <Position X="8.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgCAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\First\FirstButtonCommandSets\DriveState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirControlOS.Models.First.FirstButtonCommandSets.DryMode" Collapsed="true">
+    <Position X="13.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\First\FirstButtonCommandSets\DryMode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirControlOS.Models.First.FirstButtonCommandSets.HeathAndAirChangeMode" Collapsed="true">
+    <Position X="17.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\First\FirstButtonCommandSets\HeathAndAirChangeMode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirControlOS.Models.First.FirstButtonCommandSets.HorWindSweepMode" Collapsed="true">
+    <Position X="22.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgCAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\First\FirstButtonCommandSets\HorWindSweepMode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirControlOS.Models.First.FirstButtonCommandSets.LightMode" Collapsed="true">
+    <Position X="26.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgCAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\First\FirstButtonCommandSets\LightMode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirControlOS.Models.First.FirstButtonCommandSets.SetTemperatureMode" Collapsed="true">
+    <Position X="31.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\First\FirstButtonCommandSets\SetTemperatureMode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirControlOS.Models.First.FirstButtonCommandSets.SilenceMode" Collapsed="true">
+    <Position X="33.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\First\FirstButtonCommandSets\SilenceMode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirControlOS.Models.First.FirstButtonCommandSets.SleepMode" Collapsed="true">
+    <Position X="35.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\First\FirstButtonCommandSets\SleepMode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirControlOS.Models.First.FirstButtonCommandSets.SubTemperatureMode" Collapsed="true">
+    <Position X="2" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgCAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\First\FirstButtonCommandSets\SubTemperatureMode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirControlOS.Models.First.FirstButtonCommandSets.SuperPowerMode" Collapsed="true">
+    <Position X="6.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\First\FirstButtonCommandSets\SuperPowerMode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirControlOS.Models.First.FirstButtonCommandSets.TemperatureDisplayMode" Collapsed="true">
+    <Position X="11" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\First\FirstButtonCommandSets\TemperatureDisplayMode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirControlOS.Models.First.FirstButtonCommandSets.TimerMode" Collapsed="true">
+    <Position X="15.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\First\FirstButtonCommandSets\TimerMode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirControlOS.Models.First.FirstButtonCommandSets.VerWindSweepMode" Collapsed="true">
+    <Position X="20" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgCAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\First\FirstButtonCommandSets\VerWindSweepMode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirControlOS.Models.First.FirstButtonCommandSets.WindPowerMode" Collapsed="true">
+    <Position X="24.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\First\FirstButtonCommandSets\WindPowerMode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirControlOS.Models.First.FirstButtonCommandSets.WorkModel" Collapsed="true">
+    <Position X="29" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\First\FirstButtonCommandSets\WorkModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirControlOS.Models.First.firstButtonCommandSets.FirstButtonCommandSets" Collapsed="true">
+    <Position X="45.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\First\FirstButtonCommandSets\FirstButtonCommandSets.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirControlOS.Models.First.FirstCommands.AddTemperature" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="38.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Models\First\FirstCommands\AddTemperature.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AirControlOS.Models.First.FirstCommands.AutoMode" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="43.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Models\First\FirstCommands\AutoMode.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AirControlOS.Models.First.FirstCommands.AutoSilence" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="45.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Models\First\FirstCommands\AutoSilence.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AirControlOS.Models.First.FirstCommands.Blow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="47" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Models\First\FirstCommands\Blow.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AirControlOS.Models.First.FirstCommands.CloseDrive" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="50.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Models\First\FirstCommands\CloseDrive.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AirControlOS.Models.First.FirstCommands.CloseSuperPower" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="38.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Models\First\FirstCommands\CloseSuperPower.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AirControlOS.Models.First.FirstCommands.Dehumidification" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="40" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Models\First\FirstCommands\Dehumidification.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AirControlOS.Models.First.FirstCommands.DryModeOff" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="41.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Models\First\FirstCommands\DryModeOff.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AirControlOS.Models.First.FirstCommands.DryModeOn" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="43.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Models\First\FirstCommands\DryModeOn.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AirControlOS.Models.First.FirstCommands.HeathAndAirChange" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="38.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Models\First\FirstCommands\HeathAndAirChange.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AirControlOS.Models.First.FirstCommands.HeathAndAirChangeModelOff" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="40" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Models\First\FirstCommands\HeathAndAirChangeModelOff.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AirControlOS.Models.First.FirstCommands.Heating" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="41.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Models\First\FirstCommands\Heating.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AirControlOS.Models.First.FirstCommands.HorWindSweepOff" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="48.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Models\First\FirstCommands\HorWindSweepOff.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AirControlOS.Models.First.FirstCommands.HorWindSweepOn" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="45.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Models\First\FirstCommands\HorWindSweepOn.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AirControlOS.Models.First.FirstCommands.LightOff" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="47" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Models\First\FirstCommands\LightOff.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AirControlOS.Models.First.FirstCommands.LightOn" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="48.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Models\First\FirstCommands\LightOn.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AirControlOS.Models.First.FirstCommands.OnlyAirChange" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="41.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Models\First\FirstCommands\OnlyAirChange.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AirControlOS.Models.First.FirstCommands.OnlyHeath" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="43.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Models\First\FirstCommands\OnlyHeath.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AirControlOS.Models.First.FirstCommands.OpenDrive" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="45.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Models\First\FirstCommands\OpenDrive.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AirControlOS.Models.First.FirstCommands.OpenSuperPower" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="47" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Models\First\FirstCommands\OpenSuperPower.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AirControlOS.Models.First.FirstCommands.Refrigeration" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="48.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Models\First\FirstCommands\Refrigeration.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AirControlOS.Models.First.FirstCommands.Silence" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="40" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Models\First\FirstCommands\Silence.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AirControlOS.Models.First.FirstCommands.SilenceOff" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="41.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Models\First\FirstCommands\SilenceOff.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AirControlOS.Models.First.FirstCommands.SleepModeOff" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="43.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Models\First\FirstCommands\SleepModeOff.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AirControlOS.Models.First.FirstCommands.SleepModeOne" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="45.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Models\First\FirstCommands\SleepModeOne.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AirControlOS.Models.First.FirstCommands.SleepModeThree" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="47" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Models\First\FirstCommands\SleepModeThree.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AirControlOS.Models.First.FirstCommands.SleepModeTwo" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="48.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Models\First\FirstCommands\SleepModeTwo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AirControlOS.Models.First.FirstCommands.SubTemperature" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="50.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Models\First\FirstCommands\SubTemperature.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AirControlOS.Models.First.FirstCommands.SuperModeOff" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="38.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Models\First\FirstCommands\SuperModeOff.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AirControlOS.Models.First.FirstCommands.SuperModeOn" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="40" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Models\First\FirstCommands\SuperModeOn.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AirControlOS.Models.First.FirstCommands.TemperatureDisplayModeOFF" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="43.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Models\First\FirstCommands\TemperatureDisplayModeOFF.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AirControlOS.Models.First.FirstCommands.TemperatureDisplayModeOn" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="45.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Models\First\FirstCommands\TemperatureDisplayModeOn.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AirControlOS.Models.First.FirstCommands.TimeOff" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="47" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Models\First\FirstCommands\TimeOff.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AirControlOS.Models.First.FirstCommands.Timeone" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="48.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Models\First\FirstCommands\Timeone.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AirControlOS.Models.First.FirstCommands.TimeThree" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="50.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Models\First\FirstCommands\TimeThree.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AirControlOS.Models.First.FirstCommands.TimeTwo" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="38.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Models\First\FirstCommands\TimeTwo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AirControlOS.Models.First.FirstCommands.VerWindSweepOff" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="40" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Models\First\FirstCommands\VerWindSweepOff.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AirControlOS.Models.First.FirstCommands.VerWindSweepOn" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="41.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Models\First\FirstCommands\VerWindSweepOn.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AirControlOS.Models.First.FirstCommands.WindPowerModelFour" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="45.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Models\First\FirstCommands\WindPowelModeFour.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AirControlOS.Models.First.FirstCommands.WindPowerModeFive" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="43.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Models\First\FirstCommands\WindPowerModeFive.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AirControlOS.Models.First.FirstCommands.WindPowerModeOne" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="47" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Models\First\FirstCommands\WindPowerModeOne.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AirControlOS.Models.First.FirstCommands.WindPowerModeThree" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="48.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Models\First\FirstCommands\WindPowerModeThree.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AirControlOS.Models.First.FirstCommands.WindPowerModeTwo" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="50.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Models\First\FirstCommands\WindPowerModeTwo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AirControlOS.Models.First.FirstRemoteControllerInstance.FirstFunctionCategories">
+    <Position X="31.25" Y="6.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="AirControlOS.Models.First.FirstRemoteControllerInstance.FirstFunctionCategories.DryMode" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\First\FirstRemoteControllerInstance\FirstFunctionCategories.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="AirControlOS.Models.First.FirstRemoteControllerInstance.FirstFunctionCategories.SuperPowerMode" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\First\FirstRemoteControllerInstance\FirstFunctionCategories.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="AirControlOS.Models.First.FirstRemoteControllerInstance.FirstFunctionCategories.VerWindSweep" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\First\FirstRemoteControllerInstance\FirstFunctionCategories.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="AirControlOS.Models.First.FirstRemoteControllerInstance.FirstFunctionCategories.SetTemperatureMode" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\First\FirstRemoteControllerInstance\FirstFunctionCategories.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="AirControlOS.Models.First.FirstRemoteControllerInstance.FirstFunctionCategories.SilenceMode" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\First\FirstRemoteControllerInstance\FirstFunctionCategories.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="AirControlOS.Models.First.FirstRemoteControllerInstance.FirstFunctionCategories.TimerMode" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\First\FirstRemoteControllerInstance\FirstFunctionCategories.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="AirControlOS.Models.First.FirstRemoteControllerInstance.FirstFunctionCategories.SleepMode" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\First\FirstRemoteControllerInstance\FirstFunctionCategories.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="AirControlOS.Models.First.FirstRemoteControllerInstance.FirstFunctionCategories.WindPowerMode" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\First\FirstRemoteControllerInstance\FirstFunctionCategories.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="AirControlOS.Models.First.FirstRemoteControllerInstance.FirstFunctionCategories.DriveState" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\First\FirstRemoteControllerInstance\FirstFunctionCategories.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="AirControlOS.Models.First.FirstRemoteControllerInstance.FirstFunctionCategories.WorkModel" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\First\FirstRemoteControllerInstance\FirstFunctionCategories.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="AirControlOS.Models.First.FirstRemoteControllerInstance.FirstFunctionCategories.Light" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\First\FirstRemoteControllerInstance\FirstFunctionCategories.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="AirControlOS.Models.First.FirstRemoteControllerInstance.FirstFunctionCategories.HorWindSweep" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\First\FirstRemoteControllerInstance\FirstFunctionCategories.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="AirControlOS.Models.First.FirstRemoteControllerInstance.FirstFunctionCategories.HeathAndAirChangeMode" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\First\FirstRemoteControllerInstance\FirstFunctionCategories.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="AirControlOS.Models.First.FirstRemoteControllerInstance.FirstFunctionCategories.TemperatureDisplayMode" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\First\FirstRemoteControllerInstance\FirstFunctionCategories.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\First\FirstRemoteControllerInstance\FirstFunctionCategories.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirControlOS.Models.First.FirstRemoteControllerInstance.FirstFunctionCategories_C">
+    <Position X="34.25" Y="7" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="AirControlOS.Models.First.FirstRemoteControllerInstance.FirstFunctionCategories_C.DryMode" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\First\FirstRemoteControllerInstance\FirstFunctionCategories_C.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="AirControlOS.Models.First.FirstRemoteControllerInstance.FirstFunctionCategories_C.SetTemperatureMode" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\First\FirstRemoteControllerInstance\FirstFunctionCategories_C.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="AirControlOS.Models.First.FirstRemoteControllerInstance.FirstFunctionCategories_C.TimerMode" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\First\FirstRemoteControllerInstance\FirstFunctionCategories_C.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="AirControlOS.Models.First.FirstRemoteControllerInstance.FirstFunctionCategories_C.SuperPowerMode" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\First\FirstRemoteControllerInstance\FirstFunctionCategories_C.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="AirControlOS.Models.First.FirstRemoteControllerInstance.FirstFunctionCategories_C.HeathAndAirChangeMode" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\First\FirstRemoteControllerInstance\FirstFunctionCategories_C.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="AirControlOS.Models.First.FirstRemoteControllerInstance.FirstFunctionCategories_C.DriveState" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\First\FirstRemoteControllerInstance\FirstFunctionCategories_C.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="AirControlOS.Models.First.FirstRemoteControllerInstance.FirstFunctionCategories_C.SilenceMode" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\First\FirstRemoteControllerInstance\FirstFunctionCategories_C.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="AirControlOS.Models.First.FirstRemoteControllerInstance.FirstFunctionCategories_C.TemperatureDisplayMode" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\First\FirstRemoteControllerInstance\FirstFunctionCategories_C.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="AirControlOS.Models.First.FirstRemoteControllerInstance.FirstFunctionCategories_C.VerWindSweep" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\First\FirstRemoteControllerInstance\FirstFunctionCategories_C.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="AirControlOS.Models.First.FirstRemoteControllerInstance.FirstFunctionCategories_C.SleepMode" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\First\FirstRemoteControllerInstance\FirstFunctionCategories_C.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="AirControlOS.Models.First.FirstRemoteControllerInstance.FirstFunctionCategories_C.Light" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\First\FirstRemoteControllerInstance\FirstFunctionCategories_C.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="AirControlOS.Models.First.FirstRemoteControllerInstance.FirstFunctionCategories_C.HorWindSweep" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\First\FirstRemoteControllerInstance\FirstFunctionCategories_C.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="AirControlOS.Models.First.FirstRemoteControllerInstance.FirstFunctionCategories_C.WorkModel" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\First\FirstRemoteControllerInstance\FirstFunctionCategories_C.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="AirControlOS.Models.First.FirstRemoteControllerInstance.FirstFunctionCategories_C.WindPowerMode" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\First\FirstRemoteControllerInstance\FirstFunctionCategories_C.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\First\FirstRemoteControllerInstance\FirstFunctionCategories_C.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirControlOS.Models.First.FirstRemoteControllerInstance.FirstRemoteController" Collapsed="true">
+    <Position X="5.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAABAACAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\First\FirstRemoteControllerInstance\FirstRemoteController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirControlOS.Models.MCU.MCU_E" Collapsed="true">
+    <Position X="46.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABE=</HashCode>
+      <FileName>Models\MCU\MCU_E.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirControlOS.Models.RemovteController_Base.RemoteControllerBase" Collapsed="true">
+    <Position X="5.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAIAAAAAAAABAACAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\RemovteController_Base\RemoteControllerBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirControlOS.Properties.Resources" Collapsed="true">
+    <Position X="50.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirControlOS.Properties.Settings" Collapsed="true">
+    <Position X="38.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirControlOS.Views.ListWindowViewModel" Collapsed="true">
+    <Position X="40" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAIAAAAAAAAAAABAAACAABIAAAAAAI=</HashCode>
+      <FileName>ViewModels\ListWindowViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirControlOS.Views.ListWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="50.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\ListWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AirControlOS.Views.LoginWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="41.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Views\LoginWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AirControlOS.ViewModels.LoginWindowViewModel" Collapsed="true">
+    <Position X="43.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAACAAAAAAABAQAAAAEAgAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>ViewModels\LoginWindowViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirControlOS.ViewModels.MainWidowViewModel" Collapsed="true">
+    <Position X="45.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oIQEAcFCAEQgAECEECuoCQDABQgIIJAxAEBUByqgRDQ=</HashCode>
+      <FileName>ViewModels\MainWidowViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="AirControlOS.Models.AirControlListFolder.ICallListWindowable" Collapsed="true">
+    <Position X="38.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\AirControlListFolder\ICallListWindowable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="AirControlOS.Models.Command_Interface.ICommandable" Collapsed="true">
+    <Position X="48.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Models\Command_Interface\ICommandable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="AirControlOS.Models.DataConverter_Interface.IDataConverterable">
+    <Position X="30" Y="8.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAECAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\DataConverter_Interface\IDataConverterable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="AirControlOS.Models.First.FirstRemoteControllerInstance.WorkMode" Collapsed="true">
+    <Position X="38.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\First\FirstRemoteControllerInstance\FirstRemoteController.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="AirControlOS.Models.AirControlListFolder.ICallListWindowDelegate" Collapsed="true">
+    <Position X="38.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Models\AirControlListFolder\ICallListWindowable.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="AirControlOS.Models.DataConverter_Interface.ParseDataChangedEventHandler" Collapsed="true">
+    <Position X="40" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Models\DataConverter_Interface\IDataConverterable.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
